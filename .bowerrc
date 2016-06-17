@@ -1,0 +1,4 @@
+{
+    "directory": "assets/bower",
+    "proxy": "http://proxy.ufu.br:3128"
+}
