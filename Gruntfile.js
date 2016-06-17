@@ -14,17 +14,14 @@
           files: {
              "dist/assets/stylesheets/sb-admin-2.css": "sources/less/sb-admin-2.less"
             }
-         }
+         },
       },
       concat: {
          stylesheets: {
                      src: ["dist/assets/stylesheets/sb-admin-2.css",
-                          "assets/bower/bootstrap/dist/css/bootstrap.min.css",
                           "assets/bower/metisMenu/dist/metisMenu.min.css",
                           "sources/css/timeline.css",
-                          "sources/css/sb-admin-2.css",
-                          "assets/bower/morrisjs/morris.css",
-                          "assets/bower/font-awesome/css/font-awesome.min.css"],
+                          "sources/css/sb-admin-2.css"],
                     dest: "dist/assets/stylesheets/sb-admin.css"
                  },
         javascripts:{

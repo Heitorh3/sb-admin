@@ -3,7 +3,7 @@
 @gray-darker: lighten(#000, 13.5%);
 @gray-dark: lighten(#000, 20%);
 @gray: lighten(#000, 33.5%);
-@gray-light: lighten(#000, 60%);
+//@gray-light: lighten(#000, 60%);
 @gray-lighter: lighten(#000, 93.5%);
 @gray-lightest: lighten(#000, 97.25%);
 @brand-primary: #428bca;
@@ -11,3 +11,32 @@
 @brand-info: #5bc0de;
 @brand-warning: #f0ad4e;
 @brand-danger: #d9534f;
+
+
+// #####################
+// # Simple form
+// #####################
+@simple-panel-default-color: @gray-light;
+@simple-panel-error-color: #e70500;
+
+// #####################
+// # Common borders
+// #####################
+@border-radius-base: 2px;
+@border-radius-large: 4px;
+@border-radius-small: 1px;
+
+
+// #####################
+// # Error panel
+// #####################
+@sb-error-panel-default-color: @gray-light;
+@sb-error-panel-code-color: lighten(@gray-base, 85%);
+@sb-error-panel-code-font-size: floor((@font-size-base * 6.2)); // ~80px
+@sb-error-panel-title-font-size: floor((@font-size-base * 2.5)); // ~32px
+
+// Custom
+@sb-btn-cancel-color: #fff;
+@sb-btn-cancel-bg: #a1a1a1;
+@sb-btn-cancel-border: darken(@sb-btn-cancel-bg, 5%);
+@sb-btn-danger-link-color: @brand-danger;

@@ -1,0 +1,31 @@
+/*---------------------------------------*\
+  Simple panel
+  - Usado para login e "esqueci a senha"
+\*---------------------------------------*/
+
+.sb-simple-panel {
+	color: @simple-panel-default-color;
+
+	text-align: center;
+}
+
+.sb-simple-panel__message {
+	padding: 20px 0px;
+
+	&.is-error {
+		color: @simple-panel-error-color;
+	}
+}
+
+.sb-simple-panel__box {
+	padding: 20px;
+	padding-bottom: 5px;
+	border: 1px solid #ccc;
+	border-radius: @border-radius-base;
+
+	background-color: #fff;
+}
+
+.sb-simple-panel__footer {
+	padding: 10px 0;
+}

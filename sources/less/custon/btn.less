@@ -1,0 +1,22 @@
+.sb-btn-cancel {
+	.button-variant(@sb-btn-cancel-color; @sb-btn-cancel-bg; @sb-btn-cancel-border);
+}
+
+.sb-btn-link-danger {
+	color: @sb-btn-danger-link-color;
+
+	&:hover, &:active, &:focus {
+		color: darken(@sb-btn-danger-link-color, 15%);
+
+    outline: none;
+	}
+}
+
+.sb-btn-thin-caret {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.sb-btn-full-width {
+	width: 100%;
+}

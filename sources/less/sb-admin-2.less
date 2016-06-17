@@ -1,8 +1,26 @@
+// Bootstrap references
+@import (reference) "/assets/bower/bootstrap/less/variables.less";
+@import (reference) "/assets/bower/bootstrap/less/mixins/text-emphasis.less";
+@import (reference) "/assets/bower/bootstrap/less/mixins/background-variant.less";
+@import (reference) "/assets/bower/bootstrap/less/mixins/text-overflow.less";
+@import (reference) "/assets/bower/bootstrap/less/mixins/vendor-prefixes.less";
+@import (reference) "/assets/bower/bootstrap/less/mixins/alerts.less";
+@import (reference) "/assets/bower/bootstrap/less/mixins/buttons.less";
+@import (reference) "/assets/bower/bootstrap/less/mixins/responsive-visibility.less";
+@import (reference) "/assets/bower/bootstrap/less/type.less";
+@import (reference) "/assets/bower/morrisjs/less/morris.core.less";
+
 @import "variables.less";
 @import "mixins.less";
 
-// Global Styles
+// Components
+@import "components/simple-panel.less";
+@import "components/error-panel.less";
 
+//custon
+@import "custon/btn.less";
+
+// Global Styles
 body {
     background-color: @gray-lightest;
 }
@@ -271,7 +289,7 @@ table.dataTable thead .sorting:after {
     color: rgba(50,50,50,.5);
 }
 
-// Circle Buttons 
+// Circle Buttons
 
 .btn-circle {
     width: 30px;
